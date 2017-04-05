@@ -2,7 +2,7 @@ body {
   background-image: url("images/Skogafoss.jpg");
   background-size: 2100px;
   background-attachment: fixed;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   font-weight: 300;
   color: #7d7d7d;
   font-size: 15px;
@@ -17,6 +17,10 @@ body {
 
 h1, h2, h3 {
   font-family: 'Montserrat' sans-serif;
+}
+
+#movielink {
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 #movies img {
@@ -63,6 +67,7 @@ a:hover {
 a {
   text-decoration: none;
   color: #464744;
+  font-family: 'Indie Flower', cursive;
 
 }
 
@@ -106,3 +111,23 @@ a {
   width: 600px;
   margin: auto;
 }/* Here goes your CSS */
+
+@media (max-width: 900px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media (max-width: 440px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
