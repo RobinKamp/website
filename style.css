@@ -11,7 +11,6 @@ body {
 
 body {
   display: block;
-  margin: 8px;
   text-align: center;
 }
 
@@ -89,6 +88,15 @@ a {
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
+.card-square {
+  background: white;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
 .div {
   display: block;
 }
@@ -128,6 +136,75 @@ a {
   .container {
     width: 300px;
   }
+}
+
+.profile-header-wrapper {
+  background-color: white;
+  background-width: 100HV;
+
+}
+
+.profile-header-infos {
+  padding: 10px;
+}
+
+.profile-header-container img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.profile-header-container h1 {
+  color: grey;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.profile-header-container h2 {
+  color: grey;
+  opacity: 0.4;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: auto;
+  letter-spacing: -1px;
+}
+
+.tabs {
+  background: white;
+  display: flex;
+}
+.tabs a {
+  color: white;
+}
+.tabs a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.tabs h3 {
+  font-size: 17px;
+  font-weight: bold;
+
+}
+.tabs p {
+  opacity: 0.5;
+
+}
+.tab {
+  background: #756A66;
+  flex: 1 0 auto;
+  text-align: center;
+
+}
+.tab:first-child {
+  border-radius: 10px 0 0 0;
+}
+.tab:last-child {
+  border-radius: 0 10px 0 0;
+}
+.tab.active {
+  background: #756A66;
+  color: white;
 }
 
 
